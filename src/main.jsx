@@ -8,8 +8,23 @@ const create = createRoot( root );
 // [선택] 최초로 화면을 그리기 할 컴포넌트 가져와서 렌더링
 // 1. import 이용하여 컴포넌트를 가져온다.
 // import App from './App.jsx'
-// 2. 가져온 컴포넌트 랜더링하기
+// 2. 가져온 컴포넌트 랜더링하기 (렌더는 한번만 가능함 !!!!!!!!!!!!!!!!!)
 // create.render (<App> </App>)
 
-import MyMarkup from "./example/day01/MyMarkUp";
-create.render(<MyMarkup></MyMarkup>)
+// import MyMarkup from "./example/day01/MyMarkUp";
+// create.render(<MyMarkup></MyMarkup>)
+
+// import Component1 from "./example/day01/Component1";
+// create.render(<Component1></Component1>)
+
+// import Component2 from "./example/day01/Component2";
+// create.render(<Component2></Component2>)
+
+// import Component3 from "./example/day01/Component3";
+// create.render(<Component3></Component3>)
+
+// import Component4from "./example/day01/Component4";
+// create.render(<Component4></Component4>)
+
+import Component5 from "./example/day01/Component5";
+create.render(<Component5></Component5>)
