@@ -39,7 +39,8 @@ export default function Component2(  ){
     return(<>
     <input/>
     <input value={입력받은값}/> {/* value에 초기화하면 재렌더링 없이 수정불가능 / 불변성  */}
-    <input value={입력받은값2} onChange={(e) => { set입력받은값2(e.target.value); }}/>    {/* onChange 합성이벤트에다가 set 함수를 렌더링 함. */}
+    <input value={입력받은값2} onChange={(e) => { set입력받은값2(e.target.value); }}/>    
+    {/* onChange 합성이벤트에다가 set 함수를 렌더링 함. */}
         <WriteForm writeAction={(gu,ti) => {
             if(gu !== '' && ti !== ''){
                 let frmValue = `검증완료 : ${gu} , ${ti}`

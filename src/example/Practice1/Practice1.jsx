@@ -8,7 +8,7 @@
     1. main.jsx 에서 컴포넌트 import 한다.
     2. import 한 컴포넌트를 create.render( <컴포넌트/> )
 */
-export default function Practice1( props ){ // 상위 
+export default function Practice1(  ){ // 상위 
     const data = [
     { name: 'Hedy Lamarr', imageUrl: 'https://i.pravatar.cc/150?img=47' },
     { name: 'Grace Hopper', imageUrl: 'https://i.pravatar.cc/150?img=48' },
