@@ -29,5 +29,20 @@ const create = createRoot( root );
 // import Component5 from "./example/day01/Component5";
 // create.render(<Component5></Component5>)
 
-import Component6 from "./example/day01/Component6";
-create.render(<Component6></Component6>)
+// import Component6 from "./example/day01/Component6";
+// create.render(<Component6></Component6>)
+
+// import Component1 from "./example/day02/Component1"
+// create.render(<Component1></Component1>)
+
+// import Component2 from "./example/day02/Component2"
+// create.render(<Component2></Component2>)
+
+// import App from "./example/day02/ComponentExam/App"
+// create.render(<App></App>)
+
+// import Component1 from "./example/day03/Component1";
+// create.render(<Component1></Component1>)
+
+import Component2 from "./example/day03/Component2";
+create.render(<Component2></Component2>)
