@@ -52,12 +52,22 @@ const create = createRoot( root );
 
 
 // --------------------- day 04 --------------------------------
-import App from "./example/day04/App";
-import { BrowserRouter } from "react-router-dom";
 // 최초 렌더링되는 컴포넌트 앞뒤로 라우터컴포넌트 감싼다.
+
+// import App from "./example/day04/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//     )
+
+
+import RouterHooks from "./example/day04/RouterHooks";
+import { BrowserRouter } from "react-router-dom";
 create.render(
     <BrowserRouter>
-      <App />
+      <RouterHooks />
     </BrowserRouter>
     )
 

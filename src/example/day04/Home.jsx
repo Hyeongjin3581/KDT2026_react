@@ -1,3 +1,3 @@
-export default function Home(props){
+export default function Home(){
     return(<>메인페이지 / 본문 </>)
 }
