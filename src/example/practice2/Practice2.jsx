@@ -16,7 +16,7 @@ export default function Practice2(){
         setMembers([...members])// 렌더링을 위한 member setter 하기.
     }
 
-    const 삭제함수 =(index)=> {
+    const 삭제함수 = (index)=> {
         members.splice(index , 1)
         setMembers([...members])
     }

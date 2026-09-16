@@ -18,7 +18,6 @@ export default function Practice1(  ){ // 상위
   return (<>
     <Profile name={ data[0].name } imageUrl={ data[0].imageUrl }></Profile>
     <Profile name={ data[1].name } imageUrl={ data[1].imageUrl } />
-    { /* JSX 주석 */}
     {
         data.map( ( i ) => { 
             return(<>

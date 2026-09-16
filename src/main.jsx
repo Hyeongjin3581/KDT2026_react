@@ -50,5 +50,22 @@ const create = createRoot( root );
 // import Component3 from "./example/day03/Component3";
 // create.render(<Component3></Component3>)
 
-import Practice2 from "./example/Practice2/practice2";
-create.render(<Practice2></Practice2>)
+
+// --------------------- day 04 --------------------------------
+import App from "./example/day04/App";
+import { BrowserRouter } from "react-router-dom";
+// 최초 렌더링되는 컴포넌트 앞뒤로 라우터컴포넌트 감싼다.
+create.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    )
+
+
+
+// ---------------------- practice -----------------------------
+// import Practice1 from "./example/Practice1/practice1";
+// create.render(<Practice1></Practice1>)
+
+// import Practice2 from "./example/Practice2/practice2";
+// create.render(<Practice2></Practice2>)
