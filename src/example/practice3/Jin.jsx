@@ -1,11 +1,13 @@
 export default function Jin(){
-    return(<>
-    <h3> 정형진</h3>
+    return (<>
+    <div>
+        <h2> 정형진</h2>
         <div>
             <span>학과 : </span>
             <span> 컴퓨터공학과 </span>
         </div>
-            <span>자기소개 : </span>
-            <span>안녕 날 소개하지 이름 정형진 취미는 타이취 메디테이션 랩해털어둬 너와 날 그리기 위해 증오는 빼는편이야 가사에서 질리는 맛이기에</span>
+        <span>자기소개 : </span>
+        <span>2001년생, 경기도 군포시 거주, 남자, 소환사의 협곡 주 라인: 서폿</span>
+    </div>
     </>)
 }

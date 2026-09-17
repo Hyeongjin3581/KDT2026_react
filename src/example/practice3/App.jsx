@@ -1,21 +1,23 @@
 import { Route, Routes } from "react-router-dom";
-import Jin from "./Jin";
+import TopNavi from "../practice3/TopNavi";
 import LimJunHee from "./LimJunHee";
+import Home from "./Home";
+import Jin from "./Jin";
 import Seokam from "./Seokam";
-import TopNavi from "./TopNavi";
+import Hyunmin from "./Hyunmin";
 
-export default function App(){
-    return (<div className="projectLayout">
-    <TopNavi />
-    <main className="projectContent">
-    <Routes>
-            <Route path="/" element={ <h2>000 팀 프로젝트 홈</h2> } />
-            <Route path="/LimJunHee" element={ <LimJunHee/> } />
-            <Route path="/Jin" element={ <Jin/> } />
-            <Route path="/Seokam" element={ <Seokam/> } />
-            <Route path="*" element={ <h2>페이지를 찾을 수 없습니다.</h2> } />
-    </Routes>
-    </main>
-    </div>)
+export default function App (){
+
+    return (<>
+    <div className="layout">
+        <TopNavi></TopNavi>
+        <Routes>
+            <Route path="/" element = {<Home/>}></Route>
+            <Route path = "/limjunhee" element = {<LimJunHee />}></Route>
+            <Route path="/jin" element={<Jin/>}></Route>
+            <Route path="/seokam" element={<Seokam/>}></Route>
+            <Route path="/hyunmin" element={<Hyunmin/>}></Route>
+        </Routes>
+    </div>
+    </>)
 }
-
