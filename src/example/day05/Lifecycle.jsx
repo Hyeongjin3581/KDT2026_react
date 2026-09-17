@@ -31,6 +31,7 @@ function MoveBox(props){
 
 export default function Lifecycle(){
     return(<>
+    <h2>리액트 훅 - 유즈이펙트</h2>
     <MoveBox initPosition= {50} ></MoveBox>
     </>)
 }
