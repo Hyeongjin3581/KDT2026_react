@@ -4,6 +4,8 @@ import TopNav from "./TopNav";
 import NotFound from "./NotFound";
 import CommonLayout from "./CommonLayout";
 import LayoutIndex from "./LayoutIndex";
+import RouterHooks from "./RouterHooks";
+
 export default function App(){
     return (<>
     <TopNav></TopNav>
@@ -11,6 +13,7 @@ export default function App(){
             <Route path="/" element={ <Home/> } />
             <Route path="/intro" element={ <CommonLayout/>} >
                 <Route index element={ <LayoutIndex /> } />
+                <Route path="router" element={<RouterHooks/>}/>
             </Route>
             <Route path="*" element={ <NotFound/> } />
     </Routes>

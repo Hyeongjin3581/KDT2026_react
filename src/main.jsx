@@ -63,15 +63,16 @@ const create = createRoot( root );
 //     )
 
 
-import RouterHooks from "./example/day04/RouterHooks";
+// --------------------- day 05 --------------------------------
+// 최초 렌더링되는 컴포넌트 앞뒤로 라우터컴포넌트 감싼다.
+
+import App from "./example/day05/App";
 import { BrowserRouter } from "react-router-dom";
 create.render(
     <BrowserRouter>
-      <RouterHooks />
+      <App />
     </BrowserRouter>
     )
-
-
 
 // ---------------------- practice -----------------------------
 // import Practice1 from "./example/Practice1/practice1";
@@ -79,3 +80,11 @@ create.render(
 
 // import Practice2 from "./example/Practice2/practice2";
 // create.render(<Practice2></Practice2>)
+
+// import App from "./example/practice3/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//     )
