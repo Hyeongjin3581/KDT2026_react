@@ -66,13 +66,13 @@ const create = createRoot( root );
 // --------------------- day 05 --------------------------------
 // 최초 렌더링되는 컴포넌트 앞뒤로 라우터컴포넌트 감싼다.
 
-import App from "./example/day05/App";
-import { BrowserRouter } from "react-router-dom";
-create.render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-    )
+// import App from "./example/day05/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//     )
 
 
 // ---------------------- practice -----------------------------
@@ -89,3 +89,12 @@ create.render(
 //       <App />
 //     </BrowserRouter>
 //     )
+
+
+import App from "./example/practice4_1/App";
+import { BrowserRouter } from "react-router-dom";
+create.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    )
