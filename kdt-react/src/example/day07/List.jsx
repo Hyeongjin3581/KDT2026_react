@@ -6,7 +6,7 @@ export default function List(props){
 
     // useState : 상태가 바뀌였을 때 , 재렌더링 하기 위해서.  
     const [boardData , setBoardData] = useState([]);
-    let requestUrl = "http://localhost:8080";
+    let requestUrl = "http://localhost:8080/list";
 
     useEffect(function () {
     async function fetchBoardData() {
