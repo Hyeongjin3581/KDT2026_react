@@ -87,15 +87,20 @@ const create = createRoot( root );
 
 // --------------------- day 07--------------------------------
 
-import App from "./example/day07/App";
-import { BrowserRouter } from "react-router-dom";
-create.render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  )
+// import App from "./example/day07/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//   )
  
 
+ 	
+// --------------------- day 10--------------------------------
+import { BrowserRouter } from "react-router-dom";
+import App from "./example/day10/App";
+create.render(<BrowserRouter><App/></BrowserRouter>)
 
 // ---------------------- practice -----------------------------
 // import Practice1 from "./example/Practice1/practice1";
