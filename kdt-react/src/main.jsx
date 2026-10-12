@@ -107,9 +107,23 @@ const create = createRoot( root );
 
  	
 // --------------------- day 13--------------------------------
+// import { BrowserRouter } from "react-router-dom";
+// import App from "./example/day13/App";
+// create.render(<BrowserRouter><App/></BrowserRouter>)
+
+
+
+// --------------------- day 14--------------------------------
+// import { BrowserRouter } from "react-router-dom";
+// import ChatRoom from "./example/day14/ChatRoom";
+// create.render(<ChatRoom/>)
+
+
+
+// --------------------- day 15 --------------------------------
 import { BrowserRouter } from "react-router-dom";
-import App from "./example/day11/App";
-create.render(<BrowserRouter><App/></BrowserRouter>)
+import ChatBot from "./example/day15/ChatBot";
+create.render(<ChatBot/>)
 
 // ---------------------- practice -----------------------------
 // import Practice1 from "./example/Practice1/practice1";

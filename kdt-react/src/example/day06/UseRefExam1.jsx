@@ -23,7 +23,7 @@ export default function UseRefExam1(){
     <h2>useRef 사용하기</h2>
     <div>
         <p>State : {stateNum}</p>
-        <p>Ref : {refNum.current}</p>
+        {/* <p>Ref : {refNum.current}</p> */}
         <p>myNum : {myNum} </p>
         <button onClick={plusState}>State증가</button>
         <button onClick={plusRef}>Ref증가</button>
